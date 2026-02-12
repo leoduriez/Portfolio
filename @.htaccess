@@ -1,0 +1,28 @@
+RewriteEngine On
+
+# Rediriger les anciennes URLs .html vers .php
+RewriteCond %{THE_REQUEST} /index\.html [NC]
+RewriteRule ^index\.html$ /index.php [R=301,L]
+
+RewriteCond %{THE_REQUEST} /maintenance\.html [NC]
+RewriteRule ^maintenance\.html$ /maintenance.php [R=301,L]
+
+RewriteCond %{THE_REQUEST} /atelierlume\.html [NC]
+RewriteRule ^atelierlume\.html$ /atelierlume.php [R=301,L]
+
+RewriteCond %{THE_REQUEST} /loveyourkurves\.html [NC]
+RewriteRule ^loveyourkurves\.html$ /loveyourkurves.php [R=301,L]
+
+RewriteCond %{THE_REQUEST} /projet1\.html [NC]
+RewriteRule ^projet1\.html$ /projet1.php [R=301,L]
+
+RewriteCond %{THE_REQUEST} /projet2\.html [NC]
+RewriteRule ^projet2\.html$ /projet2.php [R=301,L]
+
+# Supprimer .php de l'URL pour une URL propre
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# Rediriger / vers index.php
+RewriteRule ^$ index.php [L]
