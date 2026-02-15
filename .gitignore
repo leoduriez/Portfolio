@@ -1,0 +1,31 @@
+# Fichiers de configuration sensibles
+config.php
+
+# Fichiers de test (à ne pas déployer)
+test-database.php
+
+# Fichiers d'administration (à protéger)
+admin-messages.php
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Dossiers
+node_modules/
+vendor/
+
+# Logs
+*.log
+error_log
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Fichiers de sauvegarde
+*.bak
+*.backup

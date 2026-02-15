@@ -1,5 +1,0 @@
-# Codeium ignore file
-node_modules/
-vendor/
-.git/
-*.log
