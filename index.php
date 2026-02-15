@@ -197,6 +197,7 @@ include 'includes/nav.php';
                 <div class="project-card parallax-img" data-category="backend" onclick="window.open('https://github.com/leoduriez/clone_x', '_blank')">
                     <img src="assets/img/mockup-clone-x.webp" alt="Clone X - API RESTful Twitter" class="project-img" loading="lazy">
                     <h3 class="project-title" data-translate="project2_title">Clone X - API RESTful</h3>
+                    <p class="project-description" data-translate="project2_description">API backend complète reproduisant les fonctionnalités principales de Twitter : authentification JWT, gestion des tweets, système de likes et retweets, gestion des profils utilisateurs et base de données MongoDB.</p>
                     <p class="project-subtitle" data-translate="project2_subtitle">Clone de Twitter (Backend)</p>
                     <div class="project-tech">
                         <span class="tech-tag">Node.js</span>

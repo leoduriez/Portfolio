@@ -56,6 +56,7 @@ const translations = {
     project1_title: "Site web professionnel",
     project1_subtitle: "Marbrier Armando Castanheira",
     project2_title: "Clone X - API RESTful",
+    project2_description: "API backend complète reproduisant les fonctionnalités principales de Twitter : authentification JWT, gestion des tweets, système de likes et retweets, gestion des profils utilisateurs et base de données MongoDB.",
     project2_subtitle: "Clone de Twitter (Backend)",
     
     // Contact Section
@@ -131,6 +132,7 @@ const translations = {
     project1_title: "Professional website",
     project1_subtitle: "Marble worker Armando Castanheira",
     project2_title: "Clone X - RESTful API",
+    project2_description: "Complete backend API replicating Twitter's main features: JWT authentication, tweet management, likes and retweets system, user profile management, and MongoDB database.",
     project2_subtitle: "Twitter Clone (Backend)",
     
     // Contact Section
