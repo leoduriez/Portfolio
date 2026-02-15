@@ -55,8 +55,8 @@ const translations = {
     filter_backend: "Backend",
     project1_title: "Site web professionnel",
     project1_subtitle: "Marbrier Armando Castanheira",
-    project2_title: "Application web moderne",
-    project2_subtitle: "Interface React & Node.js",
+    project2_title: "Clone X - API RESTful",
+    project2_subtitle: "Clone de Twitter (Backend)",
     
     // Contact Section
     contact_title: "CONTACTEZ-MOI",
@@ -130,8 +130,8 @@ const translations = {
     filter_backend: "Backend",
     project1_title: "Professional website",
     project1_subtitle: "Marble worker Armando Castanheira",
-    project2_title: "Modern web application",
-    project2_subtitle: "React & Node.js Interface",
+    project2_title: "Clone X - RESTful API",
+    project2_subtitle: "Twitter Clone (Backend)",
     
     // Contact Section
     contact_title: "CONTACT ME",

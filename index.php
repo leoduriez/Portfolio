@@ -193,15 +193,16 @@ include 'includes/nav.php';
                     </div>
                 </div>
 
-                <!-- Project 2 - Exemple -->
-                <div class="project-card parallax-img" data-category="frontend" onclick="window.location.href='projet2.php'">
-                    <img src="assets/img/mockup-lyk.png" alt="Application web moderne avec React" class="project-img" loading="lazy">
-                    <h3 class="project-title" data-translate="project2_title">Application web moderne</h3>
-                    <p class="project-subtitle" data-translate="project2_subtitle">Interface React & Node.js</p>
+                <!-- Project Clone X -->
+                <div class="project-card parallax-img" data-category="backend" onclick="window.open('https://github.com/leoduriez/clone_x', '_blank')">
+                    <img src="assets/img/mockup-clone-x.webp" alt="Clone X - API RESTful Twitter" class="project-img" loading="lazy">
+                    <h3 class="project-title" data-translate="project2_title">Clone X - API RESTful</h3>
+                    <p class="project-subtitle" data-translate="project2_subtitle">Clone de Twitter (Backend)</p>
                     <div class="project-tech">
-                        <span class="tech-tag">React</span>
                         <span class="tech-tag">Node.js</span>
-                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">Express</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">JWT</span>
                     </div>
                 </div>
             </div>
